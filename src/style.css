@@ -1,12 +1,14 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #ffedff;
   color: black;
   font-family: sans-serif;
 }
 h1 {
+  color: #ff487e;
   text-align: center;
   font-family: sans-serif;
-  font-size: 36px;
+  font-size: 48px;
+  font-weight: bold;
 }
 h2 {
   margin: 0 0 5px;
@@ -18,15 +20,19 @@ select {
   font-size: 18px;
   border-radius: 4px;
   padding: 10px;
+  color: #ff487e;
+  background-color: #ffedff;
+  border-color: #ffd5be;
 }
 .container {
   max-width: 600px;
   margin: 0 auto 60px;
-  background-color: white;
+  background-color: #ffd5be;
   padding: 30px;
   box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
   border-radius: 10px;
   margin-top: 60px;
+  color: #ff487e;
 }
 .city {
   display: flex;
@@ -54,5 +60,5 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #ff9776;
 }
